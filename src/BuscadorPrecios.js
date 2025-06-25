@@ -1,8 +1,8 @@
 
 import { useEffect, useState } from 'react';
 import Papa from 'papaparse';
-import { Input } from "@/components/ui/input";
-import { Card, CardContent } from "@/components/ui/card";
+import { Input } from "../components/ui/input";
+import { Card, CardContent } from "../components/ui/card";
 
 export default function BuscadorPrecios() {
   const [productos, setProductos] = useState([]);
